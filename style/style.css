@@ -117,6 +117,9 @@ h6 {
   display: flex;
   align-items: center;
 }
+.text-align {
+  text-align: center;
+}
 
 [class*="col-"] {
   width: 100%;
@@ -1104,17 +1107,22 @@ h6 {
 .main-popULove-blockText-web a {
   font-weight: 700;
   color: #7a66cc;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
 }
 .main-popULove-blockText-web a:hover {
   transition: 0.3s ease;
   background-color: #7a66cc;
   color: #fff;
-  padding: 5px 10px;
-  border-radius: 10px;
   border: 1px solid #fff;
 }
 .main-popULove-picture {
   text-align: center;
+}
+.main-popULove-picture img:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1);
 }
 
 .main-tracks {
@@ -1122,6 +1130,10 @@ h6 {
 }
 .main-tracks-picture img {
   width: 100%;
+}
+.main-tracks-picture img:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1);
 }
 .main-tracks-title {
   display: flex;
@@ -1408,12 +1420,24 @@ h6 {
   }
   .main-slider-chandle {
     margin-bottom: 30px;
+    width: 550px;
+    margin: 0 auto;
   }
   .main-slider-ibiza {
     margin-bottom: 30px;
+    width: 550px;
+    margin: 0 auto;
   }
   .main-slider-swing {
     margin-bottom: 30px;
+    width: 550px;
+    margin: 0 auto;
+  }
+  .main-brightLights-picture img {
+  }
+  .main-brightLights-picture .wom-car {
+    position: relative;
+    top: 0;
   }
 }
 
@@ -1455,10 +1479,33 @@ h6 {
     height: 500px;
   }
 }
+@media (max-width: 576px) {
+  .footer-messenger img {
+    margin-bottom: 25px;
+  }
+  .main-slider-chandle {
+    margin-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .main-slider-ibiza {
+    margin-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .main-slider-swing {
+    margin-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 550px) {
   .main-popULove-picture img {
     width: 400px;
     height: 450px;
+  }
+  .main-tracks {
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 500px) {
@@ -1518,5 +1565,29 @@ h6 {
   }
   .main-tracks-title-img {
     margin-right: 20px;
+  }
+  .main-slider-chandle {
+    margin-bottom: 30px;
+    width: 285px;
+    margin: 0 auto;
+  }
+  .main-slider-ibiza {
+    margin-bottom: 30px;
+    width: 285px;
+    margin: 0 auto;
+  }
+  .main-slider-swing {
+    margin-bottom: 30px;
+    width: 285px;
+    margin: 0 auto;
+  }
+  .main-slider-swing-buy-btn a {
+    padding: 18px 45px 20px 40px;
+  }
+  .main-slider-ibiza-buy-btn a {
+    padding: 18px 45px 20px 40px;
+  }
+  .main-slider-chandle-buy-btn a {
+    padding: 18px 45px 20px 40px;
   }
 }
