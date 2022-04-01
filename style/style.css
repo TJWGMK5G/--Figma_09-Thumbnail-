@@ -621,6 +621,19 @@ h6 {
     max-width: 100%;
   }
 }
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1c1b21;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(62, 63, 63);
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -669,7 +682,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: rgb(62, 63, 63);
-  opacity: 80%;
+  opacity: 95%;
   z-index: 2;
 }
 .header__body {
@@ -1239,7 +1252,7 @@ h6 {
 }
 .main-slider-chandle-buy-btn a:hover {
   color: #fff;
-  background-color: #9f1b58;
+  background-color: #5f0ba9;
   transition: 0.3s ease;
 }
 .main-slider-ibiza {
@@ -1288,7 +1301,7 @@ h6 {
 }
 .main-slider-ibiza-buy-btn a:hover {
   color: #fff;
-  background-color: #9f1b58;
+  background-color: #5f0ba9;
   transition: 0.3s ease;
 }
 
@@ -1338,7 +1351,7 @@ h6 {
 }
 .main-slider-swing-buy-btn a:hover {
   color: #fff;
-  background-color: #9f1b58;
+  background-color: #5f0ba9;
   transition: 0.3s ease;
 }
 
